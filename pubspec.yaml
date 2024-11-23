@@ -1,0 +1,62 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Adjusted to include compatible versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  another_flutter_splash_screen: ^1.2.1
+  flutter_neumorphic: ^3.2.0
+  animated_text_kit: ^4.2.2
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_staggered_animations: ^1.1.1
+  show_up_animation: ^2.0.0
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  logger: ^2.4.0
+  google_sign_in: ^6.2.1
+  shared_preferences: ^2.3.2
+  
+
+  cupertino_icons: ^1.0.8 # Adds the Cupertino Icons font
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0 # Recommended lints for good coding practices
+
+flutter:
+  assets:
+    - assets/images/creativebrain.png
+    - assets/images/balancedbrain.png
+    - assets/images/powerfulbrain.png
+    - assets/images/strongbrain.png
+    - assets/images/focusgreat.png
+    - assets/images/focuslow.png
+    - assets/images/focuslowest.png
+    - assets/images/focusmedium.png
+    - assets/logos/splashlogo.png
+    - assets/logos/phone.png
+    - assets/logos/brain1.png
+    - assets/images/background.png
+    - assets/images/poster.png
+    - assets/images/eqtest.png
+    - assets/images/cong.png
+    - assets/images/iq_testing.png
+    - assets/images/iqbest.png
+    - assets/images/iqlow.png
+    - assets/images/iqlowest.png
+    - assets/images/iqmedium.png
+    - assets/images/focus_testing.png
+    - assets/images/brain_testing.png
+    - assets/images/memorytest.png
+    - assets/images/combinescore.png
+   
+
